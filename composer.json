@@ -1,0 +1,19 @@
+{
+    "name": "netlic/dummy-server",
+    "description": "A library that simplifies use of '$_SERVER' variable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Branislav Kútnik",
+            "email": "branislav.kutnik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dummy\\Server\\": "src/"
+        }
+    }
+}
