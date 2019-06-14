@@ -45,4 +45,11 @@ class DummyServer
         return $arguments;
     }
 
+    /**
+     * @return DummyServer
+     */
+    public static function instantiate(): DummyServer
+    {
+        return new static();
+    }
 }
